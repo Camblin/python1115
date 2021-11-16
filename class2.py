@@ -1,6 +1,6 @@
 # class1.py
 # 클래스를 정의
-class Person:
+class Person(object):
     # 클래스에 소속된 멤버 변수(데이터 공유가 목적)
     num_person = 0
     # 생성자 (초기화 메서드)
