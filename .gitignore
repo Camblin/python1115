@@ -2,3 +2,5 @@ build/*
 dist/*
 *.spec
 *.pyc
+PV3_copy.txt
+demo.txt
