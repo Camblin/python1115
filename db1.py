@@ -2,8 +2,8 @@
 import sqlite3
 
 # 연결객체 리턴 받기(임시로 메모리 작업)
-con = sqlite3.connect(":memory:")
-# con = sqlite3.connect('test.db')
+# con = sqlite3.connect(":memory:")
+con = sqlite3.connect('test.db')
 
 # 실제 구문을 실행한 커서 객체
 cur = con.cursor()
@@ -47,3 +47,7 @@ record = cur.fetchone()
 while record is not None:
     print(record)
     record = cur.fetchone()
+
+
+con.commit()
+con.close()
