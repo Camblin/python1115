@@ -4,3 +4,6 @@ dist/*
 *.pyc
 PV3_copy.txt
 demo.txt
+webtool.txt
+MySample2.db
+test.db
